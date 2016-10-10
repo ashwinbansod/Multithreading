@@ -11,3 +11,6 @@ add_executable(StringParsing ${SOURCE_FILES_StringParsing})
 
 set(SOURCE_FILES_Seq  Odd_Even_Threads.cpp)
 add_executable(PrintSeq ${SOURCE_FILES_Seq})
+
+set(SOURCE_FILES_DINING_PHILOSOPHER  DiningPhilosopher.cpp DiningPhilosopher.h)
+add_executable(DiningPhilosopher ${SOURCE_FILES_DINING_PHILOSOPHER})
